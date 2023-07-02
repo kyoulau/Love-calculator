@@ -1,0 +1,58 @@
+body {
+    font-family: 'Poppins';
+    text-align: center;
+    background-image: url(./sources/image.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.content-box{
+    width: 400px;
+    height: 520px;
+    background-color: azure;
+    padding: 20px;
+    margin: 0 auto;
+    margin-top: 50px;
+    border-radius: 10px;
+}
+
+#calculate{
+    width: 150px;
+    height: 50px;
+    background-color: pink;
+    color: azure;
+    font-size: 20px;
+    border: none;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+.calcular:hover {
+    transform: scale(1.1);
+  }
+  
+  .calcular:active {
+    transform: scale(0.9);
+  }
+
+
+footer {
+    padding-top: 40px;
+    text-align: center;
+  }
+  
+  footer p {
+    margin: 0;
+  }
+  
+  footer a {
+    color: #333;
+    text-decoration: none;
+  }
+  
+  footer a:hover {
+    text-decoration: underline;
+  }
+  
+#result-porc{
+    font-size: 30px;
+}
