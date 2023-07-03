@@ -1,0 +1,40 @@
+@media (max-width: 1014px) {
+    body {
+        background-position: center;
+    }
+
+    .content-box {
+        align-self: center;
+    }
+}
+  
+  
+  @media (max-width: 768px){ 
+    .content-box{
+        width: 380px;
+        height: 490px;
+        background-color: azure;
+        padding: 40px;
+        margin: 0 auto;
+        margin-top: 112px;
+        border-radius: 10px;
+    }
+
+    footer {
+        padding-top: 10px;
+        text-align: center;
+      }
+  }
+  
+  @media (max-width: 480px) {
+    .content-box{
+        width: 340px;
+        height: 460px;
+        background-color: azure;
+        padding: 40px;
+        margin: 0 auto;
+        margin-top: 122px;
+        border-radius: 10px;
+    }
+  }
+  
